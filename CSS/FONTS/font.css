@@ -1,0 +1,48 @@
+
+
+@font-face {
+    font-family: 'font';
+    src: url('./new_fonts/alexbrush-regular-webfont.woff2') format('woff2'),
+         url('./new_fonts/alexbrush-regular-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 8x;
+    font-weight: normal;
+    
+}
+
+#first {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    
+}
+
+#second {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-family:"font";
+}
+
+#third {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#first > q {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+#third > span{
+font-weight: bold;
+font-style: italic;
+font-family: 'font';
+}
