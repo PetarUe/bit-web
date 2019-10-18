@@ -1,0 +1,36 @@
+form {
+    border: #eeeeee;
+    height: 400px;
+    width: 300px;
+    margin: auto;
+    background-color: #eeeeee;
+    padding: 0 40px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+h1 {
+    text-align: center;
+    color: #ffbe00;
+    padding: 30px 0 0 0;
+}
+h1 span {
+    color: #2d3e50;
+}
+
+input {
+    width: 100%;
+    border-radius: 5px;
+}
+
+label {
+    width: 100%;
+    text-align:left;
+    display: block;
+}
+#submit {
+    background: #c1392b;
+    color: white;
+}
+hr {
+   
+}

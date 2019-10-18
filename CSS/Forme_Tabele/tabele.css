@@ -1,0 +1,60 @@
+#prva {
+    list-style-type: circle;
+}
+
+#druga {
+    list-style-type: square;
+}
+#treca {
+    list-style-type: lower-alpha;
+}
+
+#cetvrta {
+    list-style-type: upper-roman;
+}
+
+#peta {
+    width: 200px;
+    list-style-position: inside;
+    list-style-image: url("./tabela.png");
+}
+#sesta {
+    width: 200px;
+    list-style-position: inside;
+    list-style-image: url("./tabela.png")
+}
+#tabela1 {
+    margin: auto;
+    border-collapse: collapse;
+}
+.prvired {
+    background-color:#c1392a;
+    color: rgb(255, 255, 255);
+}
+td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+#tabela1 tr:nth-child(odd) td {
+    background-color: gainsboro;
+} 
+#tabela1 tr:hover td {
+    background-color: yellow;
+}
+th {
+    width: 70px;
+}
+#tabela1 img {
+    height: 100px;
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+tr {
+    text-align: center;
+}
+#joj {
+    width: 160px;
+}
