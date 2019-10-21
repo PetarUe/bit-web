@@ -1,0 +1,26 @@
+#first {
+    position: relative;
+    left: 100px;
+    top: 50px;
+    margin-bottom: 50px;
+}
+#sec {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+#thrd {
+    position: absolute;
+    bottom: 0;
+}
+body {
+    position: relative;
+}
+a {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+p {
+    width: 75%;
+}
