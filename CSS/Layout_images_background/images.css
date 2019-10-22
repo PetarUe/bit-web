@@ -1,0 +1,24 @@
+#first {
+    display: block;
+    height: 200px;
+    float: right;
+    
+}
+#sec {
+    display: block;
+    width: 200px;
+    margin: auto;
+}
+#thrd {
+    display: block;
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+.prva:before,.prva:after {
+    content: "";
+    display: table;
+}
+.prva:after {
+    clear:both;
+}

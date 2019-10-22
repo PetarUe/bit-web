@@ -1,0 +1,75 @@
+body {
+width: 1160px;
+font-family: sans-serif;
+margin: auto;
+}
+ul {
+    margin-bottom: 2px;
+    width: 960px;
+    color: white;
+    background-color: #c1392a;
+    list-style-type: none;
+    padding: 0px;
+    position: relative;
+
+}
+
+li {
+    float: right;
+    background-color: #c1392a;
+    padding: 20px;
+}
+.menu:before,
+.menu:after {
+    content: "";
+    display: table;
+}
+.menu:after {
+    clear: both;
+}
+#photo_main {
+    width: 960px;
+}
+.photo {
+    margin: 5px;
+    float:left;
+    width: 320px;
+    height: 400px;
+
+}
+#photo_main:before,
+#photo_main:after {
+    content: "";
+    display: table;
+}
+#photo_main:after {
+    clear: both;
+}
+#zuti_linkovi {
+    font-size: 12px;
+    padding: 10px, 0px;
+    background-color: #ffbe00;
+    width: 295px;   
+    height: 240px;
+   
+}
+#footer {
+    background-color: #2d3e50;
+    width: 1980px;
+    height: 30px;
+    float: left;
+    margin-left: -450px;
+    margin-right: -490px;
+}
+span {
+    color: white;
+}
+a { 
+    margin: 10px;
+    padding: 0px 10px;
+    text-decoration: none;
+    color: #2d3e50;
+
+}
+
+
