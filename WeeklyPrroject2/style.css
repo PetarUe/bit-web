@@ -1,0 +1,157 @@
+@font-face {
+    font-family:"Roboto";
+    src: url(./assets/fonts/Roboto-Regular.ttf) ;
+}
+@font-face {
+    font-family:"Roboto bold";
+    src: url(./assets/fonts/Roboto-Bold.ttf);
+}
+
+#maindiv {
+    width: 1200px;
+    margin: 0 auto;
+}
+#prvideo {
+    width: 100%;
+    height: 675px; /*Kako resiti?*/
+    background: url(./assets/images/banner3.jpg) no-repeat; 
+    background-size: cover;
+    padding: 10px;
+   
+}
+/*clearfix*/
+.cf::before, .cf::after {
+    content: "";
+    display: table;
+}
+.cf::after {
+    clear: both;
+}
+/*cf*/
+
+.build {
+    float: left;
+    padding: 5px;
+    font-family: "Roboto bold";
+    color: white;
+    border: 2px;
+    font-size: 35px;
+    margin-top: 5px;
+
+}
+nav  ul {
+    list-style-type: none;
+    
+}
+nav ul li {
+    float:right;
+    padding: 10px;
+    font-family: "Roboto bold"; 
+    color: white;
+}
+#build {
+    color: #de882b;
+    border-top: white solid 2px;
+    border-left: white solid 2px;
+    border-bottom: white solid 2px;
+    font-family: "Roboto bold";
+}
+#estate {
+    padding-top: 6px;
+}
+h1 {
+    color: white;
+    font-size:45px; 
+    font-family: "Roboto"; 
+    margin: 200px 30px 0 30px; 
+    text-align: center;
+}
+#more {
+    text-decoration: none;
+    position: relative;
+    left:45%;
+    top: 50%;
+    color: white;
+    background-color: #1c70b1;
+    border-radius: 15px;
+    padding: 10px;
+}
+.more {
+    margin: 80px;
+}
+    
+#about{
+
+    width: 100%; 
+  
+}
+.lista {
+    list-style-type: none;
+}
+.drugidivovi {
+    float: left;
+    width: 30%;
+    margin: 1%;
+}
+#drugideo {
+    margin: auto;
+    width: 75%;
+}
+h3 {
+    margin-top: 0;
+    color: #53a2e0;
+}
+#trecideo {
+    width:100%;
+    
+}
+.trecidivovi{
+    float: left;
+    background-color: #82c3f5;
+    width: 30%;
+    margin: 20px;
+    padding: 5% 0%
+}
+.slicice {
+    position: relative;
+    left: 30px;
+    bottom:30px;
+    border-radius: 50%;
+    border:  white solid 2px;
+    padding: 1%;
+    width: 15%;
+}
+#trecideo {
+    width: 100%;
+    height: 200px; /*Kako namestiti visinu*/
+}
+.cetvrtidivovi {
+    float:left;
+    width:25%;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+#prva {
+    background-color: #3bdd9a;
+}
+#druga {
+    background-color: #fd5282;
+}
+
+#treca {
+    background-color: #376de4;
+}
+
+#cetvrta {
+    background-color: #82c3f5;
+}
+#house {
+    width:70%;
+    position: relative;
+    left: 18%;
+}
+
+
+
+
