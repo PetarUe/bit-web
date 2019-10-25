@@ -1,0 +1,235 @@
+@font-face {
+    font-family:"Roboto";
+    src: url(./assets/fonts/Roboto-Regular.ttf) ;
+}
+@font-face {
+    font-family:"Roboto bold";
+    src: url(./assets/fonts/Roboto-Bold.ttf);
+}
+
+#maindiv {
+   
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: "Roboto";
+}
+#prvideo {
+    width: 100%;
+    height: 675px; /*Kako resiti?*/
+    background: url(./assets/images/banner3.jpg) no-repeat; 
+    background-size: cover;
+    padding: 10px;
+   
+}
+/*clearfix*/
+.cf::before, .cf::after {
+    content: "";
+    display: table;
+}
+.cf::after {
+    clear: both;
+}
+/*cf*/
+
+.build {
+    float: left;
+    padding: 5px;
+    font-family: "Roboto bold";
+    color: white;
+    border: 2px;
+    font-size: 35px;
+    margin-top: 5px;
+
+}
+nav  ul {
+    list-style-type: none;
+    
+}
+nav ul li {
+    float:right;
+    padding: 10px;
+    font-family: "Roboto bold"; 
+    color: white;
+}
+#build {
+    color: #de882b;
+    border-top: white solid 2px;
+    border-left: white solid 2px;
+    border-bottom: white solid 2px;
+    font-family: "Roboto bold";
+}
+#estate {
+    padding-top: 6px;
+}
+h1 {
+    color: white;
+    font-size:45px; 
+    font-family: "Roboto"; 
+    margin: 200px 30px 0 30px; 
+    text-align: center;
+}
+#more {
+    text-decoration: none;
+    position: relative;
+    left:43%;
+    top: 50%;
+    color: white;
+    background-color: #1c70b1;
+    border-radius: 21px;
+    padding: 13px 25px;
+}
+.more {
+    margin: 80px;
+}
+    
+#about{
+
+    width: 100%; 
+  
+}
+.drugidivovi > .lista {
+    list-style-type: none;
+    padding: 0;
+    font-size: 90%;
+}
+.drugidivovi > .lista > li {
+    padding: 2.5%;
+    color: #817c7f;
+}
+.drugidivovi {
+
+    float: left;
+    width: 31%;
+    margin: 1%;
+}
+#drugideo {
+    margin: auto;
+    width: 80%;
+}
+h3 {
+    margin-top: 0;
+    color: #53a2e0;
+}
+#trecideo {
+    width:100%;
+    
+}
+.trecidivovi{
+    float: left;
+    background-color: #82c3f5;
+    width: 30%;
+    margin: 1.5%;
+    padding: 4% 0% 1% 0%;
+}
+.slicice {
+    position: relative;
+    left: 30px;
+    bottom:30px;
+    border-radius: 50%;
+    border:  white solid 2px;
+    padding: 1%;
+    width: 15%;
+}
+#cetvrtideo {
+    width: 100%;
+    height: 200px; /*Kako namestiti visinu*/
+}
+.cetvrtidivovi {
+    float:left;
+    width:25%;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+#prva {
+    background-color: #3bdd9a;
+}
+#druga {
+    background-color: #fd5282;
+}
+
+#treca {
+    background-color: #376de4;
+}
+
+#cetvrta {
+    background-color: #82c3f5;
+}
+#house {
+    width:70%;
+    position: relative;
+    left: 18%;
+}
+.trecidivovi {
+    position: relative;
+}
+h4 {
+    position: absolute;
+    left: 36%;
+    bottom: 61%;
+}
+.trecidivovi p {
+    box-sizing: border-box;
+    padding: 0% 9%;
+    color: white;
+    margin: 0% 0% 4% 0%;
+}
+.trecidivovi span {
+    color: white;
+}
+h2 {
+text-align: center;
+margin-bottom: 0%;
+
+}
+.dijamant {
+    text-align: center;
+    margin-top: 0%;
+    font-size: 120%;
+}
+.dijamant > span {
+    font-size: 130%;
+}
+textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 2%;
+}
+#petideo {
+    width: 75%;
+    margin: auto;
+}
+form {
+    width:100%;
+}
+.inputi {
+    width: 31%;
+    box-sizing: border-box;
+}
+#input1 {
+    margin: 0% 0% 3% 0%;
+    padding: 2%;
+}
+#input2 {
+    margin: 0% 3% 3% 3%;
+    padding: 2%;
+}
+#input3 {
+    margin: 0% 0% 3% 0%;
+    padding: 2%;
+   
+}
+#submit {
+    box-sizing: border-box;
+    background-color: #fd9727;
+    color: white;
+    margin-top: 2%;
+    padding: 1.5% 4% 1.5% 4%;
+    border: 0;
+}
+.tekst {
+    color: white;
+    text-align: center;
+}
