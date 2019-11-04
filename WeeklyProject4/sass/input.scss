@@ -1,0 +1,74 @@
+.one {
+    color: white;
+    text-align: center;
+    background-image: url(../img/main-banner.jpg);
+   
+    .logo {
+        text-align: center;
+        margin-top: 2%;
+        font-size: 130%;
+        
+    }
+    button {
+        width: 14%;
+        color: white;
+        border: 0.5px solid #65686f;
+        border-radius: 12px;
+        background: none;
+        margin: 5% 2%;
+        padding: 1% 4%;
+    
+    
+    }
+    .baner1 button:hover {
+        background-color: #f7600f;
+        border: none;
+    }
+    h1 {
+        font-size: 4.5rem;
+        font-style: bold;
+        font-weight: 700;
+        margin: 7% 0% 1% 0%;
+    }
+    .baner1 p {
+        font-size: 1.5em;
+        margin: auto;
+        width: 41%;
+    }
+    .arrowdown {
+        margin-bottom: 3%;
+    }
+}
+ span {
+     color:#f7600f;
+}
+.two {
+    .icons{
+        text-align: center;
+
+    }
+    .icons_border {
+        height:150px;
+        width:150px;
+        border: 1px solid #c7c7c9;
+        border-radius: 50%;
+        margin:auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .divovi {
+        margin-top: 5%;
+    }
+    h3 {
+        margin-top: 7%;
+        margin-bottom: 2%;
+        color: #3a444d;
+        font-size: 115%;
+    }
+    .icons > p {
+        width: 68%;
+        margin: auto;
+    }
+}
+@import "subscribe";

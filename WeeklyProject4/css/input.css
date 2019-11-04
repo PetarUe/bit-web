@@ -1,0 +1,77 @@
+.one {
+  color: white;
+  text-align: center;
+  background-image: url(../img/main-banner.jpg); }
+  .one .logo {
+    text-align: center;
+    margin-top: 2%;
+    font-size: 130%; }
+  .one button {
+    width: 14%;
+    color: white;
+    border: 0.5px solid #65686f;
+    border-radius: 12px;
+    background: none;
+    margin: 5% 2%;
+    padding: 1% 4%; }
+  .one .baner1 button:hover {
+    background-color: #f7600f;
+    border: none; }
+  .one h1 {
+    font-size: 4.5rem;
+    font-style: bold;
+    font-weight: 700;
+    margin: 7% 0% 1% 0%; }
+  .one .baner1 p {
+    font-size: 1.5em;
+    margin: auto;
+    width: 41%; }
+  .one .arrowdown {
+    margin-bottom: 3%; }
+
+span {
+  color: #f7600f; }
+
+.two .icons {
+  text-align: center; }
+.two .icons_border {
+  height: 150px;
+  width: 150px;
+  border: 1px solid #c7c7c9;
+  border-radius: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+.two .divovi {
+  margin-top: 5%; }
+.two h3 {
+  margin-top: 7%;
+  margin-bottom: 2%;
+  color: #3a444d;
+  font-size: 115%; }
+.two .icons > p {
+  width: 68%;
+  margin: auto; }
+
+.three {
+  background-image: url(/img/newsletter-background.jpg); }
+  .three .polja {
+    text-align: center; }
+  .three #subscribe {
+    background-color: #f7600f;
+    padding: 1% 3%;
+    color: white;
+    border-radius: 10px;
+    border: 0px;
+    margin: 5% 1%; }
+  .three #email {
+    background-color: white;
+    padding: 1% 3%;
+    color: white;
+    border-radius: 10px;
+    border: 0px;
+    margin: 5% 1%;
+    width: 30%; }
+
+/*# sourceMappingURL=input.css.map */
