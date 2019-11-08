@@ -1,0 +1,62 @@
+.first {
+    height: 300px;
+    width: 600px;
+    background-color: #2d3e4f;
+    text-align: center;
+    margin: 0 auto;
+}
+
+button {
+    background-color: #c0392b;
+    color: white;
+    border-radius: 3px;
+    width: 150px;
+    height: 25px;
+    border: 0;
+    margin-top: 5%;
+}
+
+.second {
+    height: 300px;
+    width: 600px;
+    background-color: darkturquoise;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.offButton {
+    background-color: #ffbe00;
+    color: white;
+    border-radius: 3px;
+    width: 100px;
+    height: 40px;
+    border: 0;
+    margin: 3%;
+}
+
+.chatRoom {
+    width: 600px;
+    height: 500px;
+    margin: 25px auto;
+    border: 1px solid black;
+}
+
+.inputs {
+    margin: 0 auto;
+    width: 600px;
+}
+
+#textInput {
+    padding: 0;
+    width: 74%;
+}
+
+#sendInput {
+    margin: 0.3%;
+    padding: 0;
+    width: 24%;
+}
+
+span {
+    display: block;
+}
